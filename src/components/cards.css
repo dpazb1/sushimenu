@@ -1,0 +1,54 @@
+.card-box {
+    background-color: rgb(32, 32, 32, 0.98);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    color: white;
+    -webkit-box-shadow:rgba(48, 48, 48, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(48, 48, 48, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(48, 48, 48, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(48, 48, 48, 0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.card-box:hover {
+    -webkit-box-shadow:rgba(120, 120, 120, 0.8) 0px 3px 12px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(120, 120, 120, 0.8) 0px 3px 12px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(120, 120, 120, 0.8) 0px 3px 12px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(120, 120, 120, 0.8) 0px 3px 12px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.card-box:active {
+    transform: scale(0.97);
+}
+
+.roll {
+    height: 200px;
+    width: 200px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.sushi-name {
+    text-align: center;
+    margin: 0 0 6px 0;
+    user-select: none;
+
+}
+
+.price {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    user-select: none;
+}
+
+.ingredients {
+    font-size: 0.85em;
+    text-align: center;
+    padding: 10px;
+    user-select: none;
+}
