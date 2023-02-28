@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sushimenu/static/css/main.56b12bb4.css",
+    "main.js": "/sushimenu/static/js/main.aaf10954.js",
+    "index.html": "/sushimenu/index.html",
+    "main.56b12bb4.css.map": "/sushimenu/static/css/main.56b12bb4.css.map",
+    "main.aaf10954.js.map": "/sushimenu/static/js/main.aaf10954.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56b12bb4.css",
+    "static/js/main.aaf10954.js"
+  ]
+}
